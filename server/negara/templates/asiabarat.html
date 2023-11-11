@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}
+Halaman Utama
+{% endblock title %}
+
+
+{% block menu %}
+{% endblock menu %}
+
+{% block content %}
+<h1>MACAM-MACAM SEBAGIAN NEGARA ASIA BARAT</h1>
+<div class="barat">
+    <ul>
+        <li>Arab Saudi</li>
+        <img src="{% static 'img/arab.jpg' %}">
+        <li>Azerbaijan</li>
+        <img src="{% static 'img/azerbaijan.png' %}">
+        <li>Armenia</li>
+        <img src="{% static 'img/armenia.png' %}">
+        <li>Bahrain</li>
+        <img src="{% static 'img/bahrain.png' %}">
+
+    </ul>
+</div>
+{% endblock content %}

@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}
+Halaman Utama
+{% endblock title %}
+
+{% block menu %}
+{% endblock menu %}
+
+{% block content %}
+<h1>MACAM-MACAM SEBAGIAN NEGARA ASIA TENGGARA</h1>
+<div class="tenggara">
+    <ul>
+        <li>Indonesia</li>
+        <img src="{% static 'img/indonesia.png' %}">
+        <li>Malaysia</li>
+        <img src="{% static 'img/malaysia.png' %}">
+        <li>Brunei Darussalam</li>
+        <img src="{% static 'img/brunei.png' %}">
+        <li>Laos</li>
+        <img src="{% static 'img/laos.png' %}">
+        <li>Singapura</li>
+        <img src="{% static 'img/singapura.png' %}">
+
+    </ul>
+</div>
+{% endblock content %}

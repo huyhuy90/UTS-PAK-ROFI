@@ -1,0 +1,15 @@
+body {
+    background-color: rgba(255, 0, 0, 0.397);
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+#home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
